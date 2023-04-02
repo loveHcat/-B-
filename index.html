@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!--主页-->
+    <div class="ic-home">
+    <!--头部-->
+    <div class="ic-header">
+    <nav class="ic-navcontainer">
+    <!--头部左侧-->   
+    <ul class="head-left">
+    <li class="head-left-ic"><a href="/"><svg width="59" height="22" viewBox="0 0 59 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8225 17.4752C28.3201 16.1443 28.7217 14.5458 28.9859 12.6607C29.1276 11.6491 29.2845 10.1658 29.4568 8.20813H35.256C35.2636 8.20813 35.2712 8.20828 35.2788 8.20857C35.607 8.22119 35.8628 8.49743 35.8502 8.82558L35.4995 17.9427C35.4872 18.262 35.2248 18.5144 34.9053 18.5144H33.2973C32.8595 18.5144 32.5045 18.8694 32.5045 19.3072C32.5045 19.7451 32.8595 20.1 33.2973 20.1H35.4775C36.3532 20.1 37.0631 19.3901 37.0631 18.5144L37.4595 8.20813C37.4595 7.33244 36.7496 6.62254 35.8739 6.62254H29.5913C29.6709 5.65054 29.7536 4.58575 29.8394 3.42794C29.8717 2.99129 29.544 2.61109 29.1073 2.57874C28.6707 2.54639 28.2905 2.87414 28.2581 3.3108C28.1688 4.51669 28.0828 5.62069 28.0003 6.62254H25.3694C24.9315 6.62254 24.5766 6.97749 24.5766 7.41534C24.5766 7.85318 24.9315 8.20813 25.3694 8.20813H27.865C27.6999 10.07 27.55 11.4816 27.4156 12.4407C27.1673 14.2124 26.794 15.6986 26.3374 16.9199C26.0981 17.5599 25.8527 18.0822 25.6162 18.4944C25.5366 18.6333 25.4648 18.7474 25.4028 18.8378C25.3702 18.8853 25.3511 18.9109 25.3474 18.9155C25.0722 19.256 25.1251 19.7552 25.4656 20.0305C25.8061 20.3057 26.3053 20.2528 26.5805 19.9123C26.6736 19.7971 26.8159 19.5898 26.9916 19.2833C27.271 18.7963 27.5531 18.1959 27.8225 17.4752ZM48.5586 17.3184V7.72969H55.6831C56.3473 7.72969 56.8829 8.26047 56.8829 8.9117V16.4576C56.8829 17.1088 56.3473 17.6396 55.6831 17.6396H53.3916C52.7273 17.6396 52.1917 17.1088 52.1917 16.4576V10.1081C52.1917 9.67022 51.8368 9.31528 51.3989 9.31528C50.9611 9.31528 50.6062 9.67022 50.6062 10.1081V16.4576C50.6062 17.9877 51.8548 19.2252 53.3916 19.2252H55.6831C57.2199 19.2252 58.4685 17.9877 58.4685 16.4576V8.9117C58.4685 7.38157 57.2199 6.14411 55.6831 6.14411H48.5586V3.76573C48.5586 3.32788 48.2036 2.97294 47.7658 2.97294C47.3279 2.97294 46.973 3.32788 46.973 3.76573V6.14411H44.1982C43.7604 6.14411 43.4054 6.49905 43.4054 6.9369C43.4054 7.37475 43.7604 7.72969 44.1982 7.72969H46.973V12.465L44.3002 13.5341C43.8936 13.6968 43.6959 14.1581 43.8585 14.5647C44.0211 14.9712 44.4825 15.1689 44.8891 15.0063L46.973 14.1727V17.3184C46.973 18.3666 46.0905 19.2252 44.991 19.2252C44.5532 19.2252 44.1982 19.5801 44.1982 20.018C44.1982 20.4558 44.5532 20.8108 44.991 20.8108C46.9566 20.8108 48.5586 19.2522 48.5586 17.3184Z" fill="black"/>
+        <path d="M13.3797 16.4636C13.874 15.9701 14.674 15.9714 15.1667 16.4665C15.6593 16.9616 15.6581 17.7631 15.1638 18.2566L12.9691 20.4481C10.9443 22.4699 7.64261 22.4992 5.58369 20.5162C5.57179 20.5048 4.655 19.6058 1.63058 16.6402C-0.381491 14.6673 -0.581941 11.5104 1.31147 9.4831L4.84172 5.7031C6.7209 3.69085 10.1849 3.47093 12.3335 5.20847L15.5398 7.80152C16.0828 8.24065 16.1676 9.03757 15.7292 9.58151C15.2909 10.1254 14.4953 10.2104 13.9523 9.77127L10.746 7.17824C9.62238 6.26954 7.65677 6.39434 6.68718 7.43259L3.15688 11.2126C2.23512 12.1996 2.33607 13.7895 3.39833 14.8311C5.61922 17.0088 7.33084 18.6871 7.33282 18.689C8.40324 19.72 10.134 19.7046 11.185 18.6551L13.3797 16.4636Z" fill="#FFA116"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.04824 14.2706C7.35039 14.2706 6.78467 13.7039 6.78467 13.0048C6.78467 12.3057 7.35039 11.739 8.04824 11.739H17.3671C18.0649 11.739 18.6306 12.3057 18.6306 13.0048C18.6306 13.7039 18.0649 14.2706 17.3671 14.2706H8.04824Z" fill="#B3B3B3"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.79343 0.401024C10.2702 -0.109469 11.0698 -0.136141 11.5794 0.34145C12.089 0.819042 12.1156 1.62004 11.6389 2.13054L3.15692 11.2126C2.23513 12.1995 2.33608 13.7894 3.39827 14.831L7.31536 18.6721C7.81405 19.1611 7.82258 19.9625 7.33442 20.4621C6.84626 20.9616 6.04626 20.9702 5.54757 20.4812L1.63046 16.6401C-0.381492 14.6671 -0.581942 11.5102 1.31155 9.48305L9.79343 0.401024Z" fill="black"/>
+        </svg></a></li>
+    <li class="head-left-nav"><a href="/">学习</a></li>
+    <li class="head-left-nav"><a href="/">题库</a></li>
+    <li class="head-left-nav"><a href="/">竞赛</a></li>
+    <li class="head-left-nav"><a href="/">讨论</a></li>
+    <li class="head-left-nav"><a href="/">求职</a></li>
+    <li class="head-left-store">
+    <div class="head-left-store-container">
+    <a href="/">
+    <span>商店</span>
+    <svg viewBox="0 0 24 24" width="1em" height="1em" class="css-1lc17o4-icon" style="width: 24px; height: 24px;"><path fill-rule="evenodd" d="M7 10l5 5 5-5z"></path></svg>
+    </a>
+    </div>
+    </li>
+    </ul>
+    <!--头部右侧-->   
+    <div class="head-right">
+        <a href="/">
+        <button class="head-right-plus">
+            <span class="plus-button">Plus 会员</span>
+        </button>
+        </a>
+        <a href="/">
+        <button class="head-right-company" style="margin-right: 10px;">
+            <span>企业版</span>
+        </button>
+        </a>
+        <a href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="ergbin84 css-g3thc2-Svg-StyledIconIphone ea8ky5j0"><path fill-rule="evenodd" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V5zm2 1a1 1 0 011-1h8a1 1 0 011 1v10a1 1 0 01-1 1H8a1 1 0 01-1-1V6zm5 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+        </a>
+        <!--竖直的占位符-->
+        <div class="right-column-line"></div>
+        <div class="enrol-login">
+            <a href="/">注册</a>
+            <div class="right-or">或</div>
+            <a href="/">登录</a>
+        </div>
+    </div>
+    </nav>
+    </div>
+    <!--右侧固定反馈侧板栏-->
+    <div class="feedbackcontainer">
+        <a href="/" class="feedbacksvg" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="etwea012 css-1f1rjc4-Svg-StyledIconCircle ea8ky5j0"><path fill-rule="evenodd" d="M20.494 16.249a9.5 9.5 0 01-8.491 5.25 9.38 9.38 0 01-3.939-.855l-4.376.838a1 1 0 01-1.17-1.17l.838-4.376a9.377 9.377 0 01-.856-3.937 9.498 9.498 0 015.25-8.492A9.378 9.378 0 0112 2.5l.555.001c4.825.266 8.678 4.119 8.945 8.999v.497a9.381 9.381 0 01-1.006 4.252zM4.76 19.24l3.252-.622a1 1 0 01.64.09A7.382 7.382 0 0012 19.5a7.5 7.5 0 006.706-4.147A7.386 7.386 0 0019.5 12l.002-.445c-.21-3.807-3.25-6.847-7.002-7.055h-.502a7.385 7.385 0 00-3.35.794A7.5 7.5 0 004.5 12.002a7.38 7.38 0 00.793 3.347 1 1 0 01.09.639L4.76 19.24zM7.9 9.35c0 .718.58 1.3 1.294 1.3h.012c.715 0 1.294-.582 1.294-1.3 0-.718-.58-1.3-1.294-1.3h-.012c-.715 0-1.294.582-1.294 1.3zm6.893 1.3a1.297 1.297 0 01-1.293-1.3c0-.718.58-1.3 1.293-1.3h.014c.714 0 1.293.582 1.293 1.3 0 .718-.58 1.3-1.294 1.3h-.012zm.915 3.708a5.244 5.244 0 01-7.416 0 1 1 0 111.414-1.415 3.244 3.244 0 004.588 0 1 1 0 011.414 1.415z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+    <!--主体-->
+    <div class="ic-content">
+        <!--内容边框限制-->
+        <div class="ic-contentwapper">
+            <!--内容容器-->
+            <div class="ic-container">
+            <!--左侧内容容器-->
+            <div class="ic-leftcontainer">
+                <div class="top-left-container">
+                    <div class="top-left-container-1">
+                    <div class="top-ic-hot">
+                        <a href="/" class="top-hot-title">笔试技巧知多少 2 | 笔试备考指南</a>
+                        <span class="top-hot-discuss">热议中</span>
+                    </div>
+                    <div class="middle-ic-hot">点击标签栏里的 「暖春 Offer 计划」 标签或点击头图，可以进入完整专栏
+                        ↗️ 嘿，又是我
+                       还记得咱们上期提到的关于笔试前的准</div>
+                    <div class="bottom-ic-hot">
+                        <span class="four-user-img">
+                            <!--关于svg的一些调整-->
+                            <svg width="0" height="0">
+                               <!--实现svg复用的标签-->
+                                <defs>
+                                <clipPath id="clip-avatar">
+                                    <path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path>  
+                                </clipPath>
+                               </defs>
+                            </svg>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                        </span>
+                        <span class="people-watch">
+                            <span class="people-watch-quantity">900</span>
+                            用户正在围观
+                        </span>
+                        <span class="enter-discuss">
+                            进入讨论
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M12.293 16.293L16.586 12l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414zM9.586 12L5.293 7.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L9.586 12z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="top-left-container-1">
+                    <div class="top-ic-hot">
+                        <a href="/" class="top-hot-title">笔试技巧知多少 2 | 笔试备考指南</a>
+                        <span class="top-hot-discuss">热议中</span>
+                    </div>
+                    <div class="middle-ic-hot">点击标签栏里的 「暖春 Offer 计划」 标签或点击头图，可以进入完整专栏
+                        ↗️ 嘿，又是我
+                       还记得咱们上期提到的关于笔试前的准</div>
+                    <div class="bottom-ic-hot">
+                        <span class="four-user-img">
+                            <!--关于svg的一些调整-->
+                            <svg width="0" height="0">
+                               <!--实现svg复用的标签-->
+                                <defs>
+                                <clipPath id="clip-avatar">
+                                    <path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path>  
+                                </clipPath>
+                               </defs>
+                            </svg>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                            <div class="user-img">
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                            </div>
+                        </span>
+                        <span class="people-watch">
+                            <span class="people-watch-quantity">900</span>
+                            用户正在围观
+                        </span>
+                        <span class="enter-discuss">
+                            进入讨论
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M12.293 16.293L16.586 12l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414zM9.586 12L5.293 7.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L9.586 12z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+                <div class="ads-left-container">
+                    <a href="/" target="_blank" class="banner-a-container">
+                        <picture>
+                        <source src="/img/1679881160-HTaKUK-社区 - 首页banner.webp" type="image/webp">
+                        <img src="/img/1679881160-HTaKUK-社区 - 首页banner.webp" class="middle-banner">
+                    </picture>
+                    </a>
+                </div>
+                <div class="middle-left-container">
+                    <div class="left-container-company">
+                        <div class="company-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="com-header-svg"><path fill-rule="evenodd" d="M20 9.505l-6.066 6.066a1 1 0 01-1.414 0l-3.384-3.384-5.429 5.43a1 1 0 11-1.414-1.415l6.136-6.136a1 1 0 011.414 0l3.384 3.383 5.359-5.358H16.09a1 1 0 110-2H21a1 1 0 011 1V12a1 1 0 11-2 0V9.505z" clip-rule="evenodd"></path></svg>
+                            <span class="company-header-title">名企面试题</span>
+                            <a href="/" class="company-header-a">
+                            更多
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M7.913 19.071l7.057-7.078-7.057-7.064a1 1 0 011.414-1.414l7.764 7.77a1 1 0 010 1.415l-7.764 7.785a1 1 0 01-1.414-1.414z" clip-rule="evenodd"></path></svg>
+                            </a>
+                        </div>
+                        <div class="company-container">
+                            <div class="company-box">
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="company-box-card">
+                                    <img src="/img/名企面试题(华为).png" alt="华为" class="company-logo">
+                                    <div class="company-name">
+                                        华为
+                                    </div>
+                                    <div class="popularity-indexnumber">
+                                        热门指数
+                                        <span class="popularity-indexnumber-text">
+                                            6821
+                                            ↑ 
+                                        </span>
+                                    </div>
+                                    <object>
+                                        <a href="/" class="company-discuss-button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                            <span class="company-discuss">围观讨论</span>
+                                            <span class="there-user-img">
+                                                <svg width="0" height="0" class="company-discuss-svg"><defs><clipPath id="clip-avatar"><path d="m8.00128196 0c4.41827804 0 8.00000004 3.581722 8.00000004 8s-3.581722 8-8.00000004 8c-2.38959981 0-4.53449661-1.0476981-6.00039523-2.708799 1.24528193-1.4102108 2.00039523-3.2625228 2.00039523-5.291201s-.7551133-3.88099023-1.99960477-5.29120097c1.46510816-1.66110096 3.61000496-2.70879903 5.99960477-2.70879903z"></path></clipPath></defs></svg>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                                <div class="user-img">
+                                                    <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-0.f41d75a8.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp" alt="default-user0" class="user-img-src">
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </object>
+                                    </div>
+                                </a>
+                               
+                            </div>
+                            <div class="leftmask" data-type="mask"></div>
+                            <div class="rightmask"data-type="mask">
+                            </div>
+                            <div class="detection-container">
+                                <div class="erd_scroll_detection_container erd_scroll_detection_container_animation_active" style="visibility: hidden; display: inline; width: 0px; height: 0px; z-index: -1; overflow: hidden; margin: 0px; padding: 0px;"><div dir="ltr" class="erd_scroll_detection_container" style="position: absolute; flex: 0 0 auto; overflow: hidden; z-index: -1; visibility: hidden; width: 100%; height: 100%; left: 0px; top: 0px;"><div class="erd_scroll_detection_container" style="position: absolute; flex: 0 0 auto; overflow: hidden; z-index: -1; visibility: hidden; inset: -18px -17px -17px -18px;"><div style="position: absolute; flex: 0 0 auto; overflow: scroll; z-index: -1; visibility: hidden; width: 100%; height: 100%;"><div style="position: absolute; left: 0px; top: 0px; width: 747px; height: 243px;"></div></div><div style="position: absolute; flex: 0 0 auto; overflow: scroll; z-index: -1; visibility: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 200%; height: 200%;"></div></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-conainer-divider"></div>
+                    <div class="left-container-question">
+                        <a href="/" class="question-left-img-container">
+                            <img src="./img/OIP-C.jpg" alt="好看的图片" class="question-left-img">
+                        </a>
+                        <div class="question-right-container">
+                            <div class="question-container-top">
+                            <div class="top-left-question">
+                             <a href="/">
+                            <picture>
+                                <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/default_avatar.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="用户名字" class="question-avator">
+                            </picture>
+                             </a>
+                             <span class="question-discussion-board">
+                                参与了
+                             </span>
+                             <a href="/" class="qustion-title">测试 | 这是仿写实例qwq</a>
+                            </div>
+                            <div class="question-right-time">6分钟前</div>
+                            </div>
+                            <a href="/" class="question-container-middle">
+                                <div class="middler-container-text">大家可以去看EVA吗？这部动漫真的很好看的阿！！!qwq强烈推荐</div>
+                            </a>
+                            <div class="question-container-bottom">
+                                <div class="bottom-discuss-maintag">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="css-1rhb60f-Svg ea8ky5j0"><path fill-rule="evenodd" d="M2 11.001a9.001 9.001 0 014.974-8.047A8.876 8.876 0 0110.998 2h.535c.018 0 .037 0 .055.002 3.934.218 7.204 3.02 8.15 6.753a1 1 0 01-1.94.49c-.734-2.9-3.27-5.065-6.294-5.245h-.51a6.876 6.876 0 00-3.12.74l-.004.002A7.001 7.001 0 004 11.003v.002a6.873 6.873 0 00.738 3.117c.206.407.271.871.185 1.32l-.387 2.022 2.022-.387c.448-.086.912-.021 1.32.185.44.222.9.395 1.373.518a1 1 0 11-.502 1.936 8.865 8.865 0 01-1.773-.669.067.067 0 00-.042-.006l-3.47.665a1 1 0 01-1.17-1.17l.665-3.47a.067.067 0 00-.006-.043A8.873 8.873 0 012 11.001zM17.004 20h-.005a3 3 0 01-2.68-1.658l-.004-.007A2.936 2.936 0 0114 17.004v-.206a2.995 2.995 0 012.773-2.797l.233-.001c.46-.001.917.107 1.33.315l.007.004A3 3 0 0120 17v.005c.001.425-.09.845-.268 1.232l-.133.29a1 1 0 00-.074.606l.093.485-.484-.093a1 1 0 00-.606.073l-.29.134a2.937 2.937 0 01-1.234.268zm-.296-8A4.995 4.995 0 0012 16.738v.262c-.002.777.18 1.543.53 2.237a5 5 0 006.542 2.313l2.303.441c.365.07.686-.25.616-.615l-.441-2.303a5 5 0 00-2.312-6.541A4.937 4.937 0 0017 12h-.292z" clip-rule="evenodd"></path></svg>
+                                     讨论
+                                </div>
+                                <a href="/" class="bottom-discuss-many-tag" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">简历</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--之后就是反复的divider和qustion-->
+                </div>
+                <div class="bottom-more-bottom">
+                    <span>加载更多</span>
+                </div>
+            </div>
+            <!--右侧内容容器-->
+            <div class="ic-rightcontainer">
+            <div class="rightcontainer-search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="rightcontainer-search-svg"><path fill-rule="evenodd" d="M11.163 5a6.163 6.163 0 100 12.326 6.163 6.163 0 000-12.326zM3 11.163a8.163 8.163 0 1114.599 5.021l3.108 3.109a1 1 0 01-1.414 1.414l-3.108-3.108A8.163 8.163 0 013 11.163z" clip-rule="evenodd"></path></svg>
+                <input type="text" size="16" value placeholder="搜索 2346. 我最喜欢的EVA动漫">
+            </div>
+            <div class="rightcontainer-item">
+                <div class="item-carousel">
+                    <div class="carousle-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide-next">
+                                <a href="/" class="swiper-slide-a">
+                                    <picture>
+                                        <source srcset="https://pic.leetcode.cn/1671092984-fmHfCV-%E9%A2%98%E5%BA%93.png?x-oss-process=image%2Fformat%2Cwebp" type="image/webp">
+                                        <img src="https://pic.leetcode.cn/1671092984-fmHfCV-题库.png" alt="一本吃透数据结构" class="swiper-picture-img">
+                                    </picture>
+                                </a>
+                            </div>
+                           
+                        </div>
+                        <div class="carousle-swiper-buttom">
+                            <ul>
+                            <li class="swiper-bullet"></li>
+                            <li class="swiper-bullet"></li>
+                            <li class="swiper-bullet-active"></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcontainer-item">
+                <a href="/" class="ad-a">
+                    <picture>
+                        <source srcset="https://pic.leetcode.cn/1679881579-dayuHn-%E5%AE%89%E8%B4%A4%E9%87%8F%E5%8C%96.png?x-oss-process=image%2Fformat%2Cwebp" type="image/webp">
+                        <img src="https://pic.leetcode.cn/1679881579-dayuHn-安贤量化.png" class="swiper-picture-img" style="border-radius: 13px">
+                    </picture>
+                </a>
+            </div>
+            <div class="rightcontainer-item">
+                <div class="card-setup-container">
+                    <div class="start-container">
+                        <a href="/">
+                            <span class="start-discuss">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="start-discuss-svg"><path fill-rule="evenodd" d="M12 3a1 1 0 110 2H5.778A.778.778 0 005 5.778v12.444c0 .43.348.778.778.778h12.444c.43 0 .778-.348.778-.778V12a1 1 0 112 0v6.222A2.778 2.778 0 0118.222 21H5.778A2.778 2.778 0 013 18.222V5.778A2.778 2.778 0 015.778 3H12zm9.608-.608a2.803 2.803 0 010 3.964l-8.073 8.073a1 1 0 01-.465.263l-3.399.85a1 1 0 01-1.213-1.213l.85-3.4a1 1 0 01.263-.464l8.073-8.073a2.803 2.803 0 013.964 0zm-1.415 2.55a.803.803 0 00-1.135-1.135l-7.877 7.877-.378 1.513 1.513-.378 7.877-7.877z" clip-rule="evenodd"></path></svg>
+                                发起讨论
+                            </span>
+                        </a>
+                        <a href="/">
+                            <span class="start-interview">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="start-interview-svg"><path fill-rule="evenodd" d="M18.48 17.5h-2.204a5 5 0 01-4.31-2.466l-.625-1.061-.624 1.061a5 5 0 01-4.31 2.466H2.661a1 1 0 110-2h3.746a3 3 0 002.586-1.48L10.181 12 8.993 9.98A3 3 0 006.407 8.5H2.661a1 1 0 110-2h3.746a5 5 0 014.31 2.466l.624 1.061.624-1.061a5 5 0 014.31-2.466h2.205V4.315a.5.5 0 01.874-.332l2.536 2.853a1 1 0 010 1.328l-2.536 2.853a.5.5 0 01-.874-.332V8.5h-2.204a3 3 0 00-2.587 1.48L12.501 12l1.188 2.02a3 3 0 002.587 1.48h2.204v-2.185a.5.5 0 01.874-.332l2.83 3.185a.5.5 0 010 .664l-2.83 3.185a.5.5 0 01-.874-.332V17.5z" clip-rule="evenodd"></path></svg>
+                                随机面试
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcontainer-item">
+                <div class="layer-card-list">
+                    <div class="discuss-list-title">
+                    <h1 class="discuss-list-h1">热门讨论</h1>
+                    <div class="list-duration-container"></div>
+                    </div>
+                    <div class="discuss-list-container">
+                        <div data-index="0" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">1</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="1" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">2</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="2" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">3</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="3" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">4</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="4" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">5</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="5" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">6</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="discuss-list-signal">
+                            <div class="discuss-signal-title-container">
+                                <picture>
+                                    <source srcset="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" type="image/webp">
+                                    <img src="https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fresize%2Ch_44%2Cw_44%2Fformat%2Cwebp" alt="leetcode的头像" class="signal-title-avatar">
+                                </picture>
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="discuss-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                            </a>
+                          
+                        </div>
+
+                    </div>
+                </div> 
+
+            </div>
+            <div class="rightcontainer-item">
+                <a href="/" class="ad-a">
+                    <picture>
+                        <source srcset="https://pic.leetcode.cn/1679881579-dayuHn-%E5%AE%89%E8%B4%A4%E9%87%8F%E5%8C%96.png?x-oss-process=image%2Fformat%2Cwebp" type="image/webp">
+                        <img src="https://pic.leetcode.cn/1679881579-dayuHn-安贤量化.png" class="swiper-picture-img">
+                    </picture>
+                </a>
+            </div>
+            <div class="rightcontainer-item">
+                <div class="layer-card-list">
+                    <div class="discuss-list-title">
+                    <h1 class="discuss-list-h1">热门解题</h1>
+                    <div class="list-duration-container"></div>
+                    </div>
+                    <div class="discuss-list-answer">
+                        <div data-index="0" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">1</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="1" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">2</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="2" class="discuss-list-rowcontainer">
+                            <div class="discuss-list1-rank">3</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="3" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">4</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="4" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">5</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+                        <div data-index="5" class="discuss-list-rowcontainer">
+                            <div class="discuss-list2-rank">6</div>
+                            <a data-title="🏆  第 338 场力扣周赛" href="/" class="answer-list-signal">
+                        <div class="answer-signal-container">
+                            <div class="discuss-signal-title-container">
+                                <div class="discuss-signal-title">🏆  第 338 场力扣周赛</div>
+                                <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/new.77389df8.png" class="list-newtag">
+                            </div>
+                            <div class="answer-signal-content">
+                                欢迎小伙伴们在这里交流分享你的参赛心得以及体验。【前往竞赛】3 分 - K 件物品的最大和 4 分 - 质数减法运算 5 分 - 使数组元素全部相等的最少操作次数 6 分 - 收集树中金币
+                            </div>
+                        </div>
+                            </a>
+                          
+                        </div>
+
+                    </div>
+                </div> 
+
+            </div>
+            </div>
+            <!--右侧固定侧边栏-->
+            <div class="conrnerButtonContainer">
+                <div class="card-button-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="card-button-svg"><path fill-rule="evenodd" d="M19.071 16.091l-7.078-7.057-7.064 7.057a1 1 0 01-1.414-1.414l7.77-7.764a1 1 0 011.415 0l7.785 7.764a1 1 0 01-1.414 1.415z" clip-rule="evenodd"></path></svg>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <!--力扣页脚-->
+    <footer class="basic-footer" id="lc-footer">
+        <div class="basic-footer-inner">
+            <nav role="navigation" class="directory">
+                <div class="directory-inner">
+                    <div class="directory-inner-div">
+                        <label class="directory-inner-label">
+                            <h3 class="directory-inner-h3">
+                                <a href="https://leetcode.cn/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">力扣 LeetCode</a>
+                            </h3>
+                        </label>
+                            <a href="https://leetcode.cn/contest/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">竞赛</a>
+                            <a href="https://leetcode.cn/leetbook/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">LeetBook</a>
+                            <a href="https://leetcode.cn/circle/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">讨论社区</a>
+                            <a href="https://leetcode.cn/company/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">求职</a>
+                            <a target="_blank">Plus 会员</a>
+                            <a href="https://detail.youzan.com/show/goods/newest?alias=271n43vr9hen7" target="_blank">周边商城</a>
+                    </div>
+                    <div>
+                        <label>
+                            <h3>
+                            <a href="https://e.leetcode.cn/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">企业服务</a>
+                            </h3>
+                        </label>
+                             <a href="https://e.leetcode.cn/interview?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank" >在线面试</a>
+                             <a href="https://e.leetcode.cn/assessment?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">企业测评</a>
+                             <a href="https://e.leetcode.cn/recruitment-and-promotion?utm_source=main-footer;utm_medium=footer-link" target="_blank">招聘</a>
+                             <span class="pop-trigger" data-key="training">培训</span>
+                             <span class="pop-trigger" data-key="suggestion">解决方案</span>
+                    </div>
+                    <div>
+                        <label>
+                            <h3>商务</h3>
+                        </label>
+                             <span class="pop-trigger" data-key="content">社区合作</span>
+                             <span class="pop-trigger" data-key="activity">活动</span>
+                             <span class="pop-trigger" data-key="contest">赞助竞赛</span>
+                             <span class="pop-trigger" data-key="product">产品推广</span>
+                             <span class="pop-trigger" data-key="campus">校园合作</span>
+                    </div>
+                    <div>
+                        <label>
+                            <h3>
+                                <a href="https://leetcode.cn/brand/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">关于我们
+                                </a>
+                            </h3>
+                        </label>
+                             <a href="https://leetcode.cn/brand/#brand-concept?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">价值观</a>
+                             <a href="https://leetcode.cn/company/leetcode/jobs/EXPERIENCED/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">工作机会</a>
+                    </div>
+                </div>
+                <div class="share-widget">
+                    <div class="wechat-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="2em" height="2em" fill="currentColor" data-logo="wechat" class="wechat-container-Svg"><path fill-rule="evenodd" d="M16.128 8.799c-3.665 0-6.627 2.536-6.627 5.664 0 .481.074.962.223 1.425-.185.018-.352.018-.518.018a9.119 9.119 0 01-2.259-.296.554.554 0 00-.481.056L4.3 16.96c-.13.075-.277-.055-.24-.184l.555-1.963c.018-.13-.019-.259-.13-.332-1.592-1.111-2.61-2.777-2.61-4.628 0-3.35 3.276-6.053 7.33-6.053 3.61 0 6.608 2.166 7.2 4.998h-.277zm-3.48-.815a.987.987 0 00-.981-.98.988.988 0 00-.981.98c0 .538.444.982.98.982a.987.987 0 00.982-.982zm-5.905.982a.987.987 0 01-.981-.982c0-.537.444-.98.98-.98.538 0 .982.443.982.98a.975.975 0 01-.981.982zm9.31.37c3.35 0 6.072 2.295 6.072 5.108 0 1.573-.833 2.962-2.13 3.906a.45.45 0 00-.184.48l.296 1.204c.037.11-.092.204-.185.148l-1.5-.814a.835.835 0 00-.518-.056 6.53 6.53 0 01-1.832.24c-3.35 0-6.072-2.294-6.072-5.108 0-2.813 2.703-5.108 6.053-5.108zm-2.998 3.61c0 .462.37.832.833.832a.83.83 0 00.833-.833.83.83 0 00-.833-.832.83.83 0 00-.833.832zm4.924.832a.83.83 0 01-.833-.833.83.83 0 01.833-.832.83.83 0 01.833.832.841.841 0 01-.833.833z" clip-rule="evenodd"></path></svg>
+                        <div class="wechat-popover">
+                            <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/wx-media-qrcode.0bdb8dff.svg">
+                        </div>
+                    </div>
+                    <a href="https://weibo.com/leetcodecn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="2em" height="2em" fill="currentColor" data-logo="weibo" class="weibo-Svg"><path fill-rule="evenodd" d="M15.597 4.116a5.293 5.293 0 015.039 1.631 5.291 5.291 0 011.108 5.178v.003a.766.766 0 01-1.458-.472 3.764 3.764 0 00-4.37-4.842.766.766 0 11-.32-1.498zM4.017 15.672c.216 2.174 3.074 3.67 6.385 3.344 3.31-.328 5.82-2.355 5.606-4.53-.215-2.173-3.073-3.67-6.385-3.342-3.31.328-5.82 2.355-5.606 4.528zm12.68-4.384c-.148.37.046.428.327.511 1.147.356 2.424 1.217 2.424 2.733 0 2.509-3.618 5.669-9.057 5.669C6.24 20.2 2 18.19 2 14.883c0-1.73 1.095-3.729 2.982-5.616 2.52-2.518 5.457-3.665 6.561-2.56.488.487.535 1.33.222 2.337-.155.481.412.254.471.23a.061.061 0 01.005-.002c2.036-.853 3.813-.903 4.462.025.346.494.313 1.187-.006 1.99zm1.922-3.72a2.577 2.577 0 00-2.455-.794.66.66 0 10.275 1.289 1.26 1.26 0 011.463 1.621.66.66 0 101.255.406 2.574 2.574 0 00-.538-2.522zm-8.607 7.722c.2.082.456-.013.572-.211.11-.2.04-.424-.16-.497-.197-.078-.444.017-.56.21-.111.195-.05.416.148.498zm-2.005 1.642c.516.236 1.202.012 1.522-.499.315-.516.15-1.106-.37-1.327-.512-.215-1.175.007-1.49.502-.322.498-.171 1.092.338 1.324zm-1.315-2.351c.684-1.389 2.465-2.174 4.04-1.764 1.631.421 2.463 1.96 1.796 3.454-.675 1.528-2.619 2.343-4.268 1.811-1.591-.514-2.265-2.086-1.568-3.501z" clip-rule="evenodd"></path></svg>
+                    </a>
+                    <a href="https://www.zhihu.com/org/ling-kou-leetcode" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="2em" height="2em" fill="currentColor" data-logo="zhihu" class="zhihu-Svg"><path fill-rule="evenodd" d="M12.714 13.06s0-1.548-.754-1.628c-.754-.08-3.095 0-3.095 0V6.671h3.492s-.04-1.587-.714-1.587H5.969l.952-2.54s-1.428.08-1.944.992c-.516.913-2.143 5.476-2.143 5.476s.556.238 1.468-.436c.913-.675 1.23-1.865 1.23-1.865L7.2 6.63l.04 4.841s-2.897-.04-3.492 0c-.595.04-.913 1.627-.913 1.627H7.24s-.397 2.698-1.508 4.642c-1.15 1.944-3.293 3.492-3.293 3.492s1.547.634 3.055-.238c1.508-.913 2.619-4.841 2.619-4.841l3.53 4.404s.318-2.103-.039-2.698c-.397-.595-2.46-2.976-2.46-2.976l-.912.794.634-2.619h3.85zm.913-8.095l-.04 14.323h1.428l.516 1.786 2.5-1.786h3.531V4.965h-7.935zM19.975 17.7H18.31l-2.103 1.627-.476-1.627h-.437V6.591h4.682v11.11z" clip-rule="evenodd"></path></svg>
+                    </a>
+                    <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAAnUJJlq8fyXSJDp0HwQjdA9U7QbG2ZFIakEKKBZZh108/" target="_blank">
+                        <svg fill="currentColor" viewBox="0 0 24 24" version="1.1" width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" data-logo="toutiao"><path fill-rule="evenodd" d="M5.5131,12.4268 L16.9381,12.4268 L16.9381,13.6578 L13.2981,17.5018 L11.0111,17.5018 L14.5871,13.5388 L5.5131,13.5388 L5.5131,12.4268 Z M12.6446,10.8085 L10.7746,10.8085 L9.9286,9.2135 L11.7246,9.2135 L12.6446,10.8085 Z M8.052,5 L9.09,5.548 L14.659,5.572 L17.342,10.856 L15.482,10.856 L13.183,6.564 L9.062,6.564 L6.862,10.856 L5,10.856 L8.052,5 Z"></path></svg>
+                    </a>
+                </div>
+            </nav>
+            <section class="section">
+                <div class="site-info">
+                    <div class="footer-links">
+                        <span class="pop-trigger" data-key="business-consulting">商务咨询 <div class="after"></div></span>
+                        <a href="https://leetcode.cn/complaint-guidelines/" target="_blank">侵权投诉 <div class="after"></div></a>
+                        <a href="https://leetcode.cn/support/new-request/" target="_blank" class="answer-Anchor">问题反馈 <div class="after"></div></a>
+                        <a href="https://leetcode.cn/company/leetcode/jobs/EXPERIENCED/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">加入我们 <div class="after"></div></a>
+                        <a href="https://leetcode.cn/terms-c/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">使用条款 <div class="after"></div></a>
+                        <a href="https://leetcode.cn/privacy/?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">隐私政策</a>
+                    </div>
+                        <a href="https://e.leetcode.cn?utm_source=main-footer&amp;utm_medium=footer-link" target="_blank">© 2023 领扣网络（上海）有限公司</a>
+                </div>
+                <div class="site-legal">
+                    <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备18019787号-20</a>
+                    <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702007420" target="_blank">
+                        <img src="https://static.leetcode.cn/cn-mono-assets/production/assets/beian.0c577066.png" alt="" style="width: 14px; height: 14px; margin-right: 4px;">沪公网安备31010702007420号
+                    </a>
+                    <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP证B2-20180578</a>
+                    <a href="https://leetcode.cn/document/licence" target="_blank">LeetCode力扣·证照中心</a>
+                    <div class="LineBreak"></div>
+                    <a href="https://www.shjbzx.cn/" target="_blank">上海市互联网违法和不良信息举报中心</a>
+                    <a href="https://www.12377.cn/" target="_blank">中国互联网违法和不良信息举报中心</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
