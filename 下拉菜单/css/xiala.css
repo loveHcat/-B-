@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*所有的列表属性为无*/
+    font-size: 20px;
+    color: #f4f1de;
+}
+body{
+    height: 100vh;
+    /*水平和竖直居中*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right,#a18cd1,#fbc2eb)
+}
+.shell{
+    display: flex;
+   /*这里确实仅仅需要竖直居中，而不是水平居中(到底文字从上到下的效果)*/
+    justify-content: center;
+}
+/*中间的逗号表示二个都进行选择，即都要选择*/
+.button,.portrait{
+  background-color: #50536e;
+  width: 170px;
+  height: 65px;
+  text-align: center;
+  /*和行高一致，完成居中效果*/
+  line-height: 65px;
+  /*完成动画的补间效果*/
+  transition: 0.3s;
+  cursor: pointer;
+}
+/*下面写伪类标签，呈现头像当被选中时，所出现的背景颜色变化*/
+/*选择::before*/
+.portrait::before{
+  content: "";/*定义内容为空，方便设置样式*/
+  /* 下面将插入的before元素改成块级元素，这样我们才能对它进行操作，设置行高等样式设置*/
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid #fff;
+  /*用2D变化将其居中，x代表从左到右，y代表从上到下*/
+  transform: translate(30px,-30px);
+  /* 进行的是图片裁剪的比例设置，cover为固有比例裁剪 */
+  background-size: cover;
+  /*将头像引入进来*/
+  background-image: url(../image/B站头像.jpg);
+}
+.information{
+    width:220px;
+    background-color: #e07a5f;
+    border-radius: 10px;
+    transform: translate(-20px,-50px);
+    padding: 20px 0;
+    /* 对行高进行设置0，是为了之后实现展开效果 */
+    line-height: 0;
+    height: 0;
+    /* 添加动画 */
+    transform: 0.3s;
+    /*默认状态下进行隐藏，出现事件再展开*/
+    opacity: 0;
+     
+}
+.information>li:hover{
+    background-color:#ffb29d;
+}
+/* 下面去写鼠标事件 */
+.button:hover{
+    /* 选中时改变背景颜色 */
+    background-color: #d15a39;
+}
+.button li:hover{
+    background-color:#ffb29d;
+}
+/* 选择所有的选择菜单 */
+.button ul li{
+    /* 同样先聚集在一起，然后加动画， */
+    height: 0;
+    transition: 0.2s;
+    /* 设置透明度为0，隐藏 */
+    opacity: 0;
+    /*移到中心位置*/
+    transform: translateY(-65px);
+    background-color: #e07a5f;
+}
+/*开始激活事件了*/
+.button:hover li{
+    /* 选中button开始出现下拉菜单 */
+    height: 65px;/*将高度恢复正常*/
+    opacity:1;/*改成了完全不透明效果，即出现*/
+    transform: translateY(0);/*位置移动在正常化*/
+}
+.portrait:hover .information{
+    /*同理，按上面操作来*/
+   opacity: 1;
+   line-height:65px;
+   transform: translate(-20px,-10px);/*这里不一样是因为本来下拉菜单与头像有间隙*/
+   height: auto;
+   transition: 0.5s;
+   
+}
